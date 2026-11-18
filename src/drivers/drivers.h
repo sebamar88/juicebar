@@ -56,7 +56,7 @@ void PollWlmouse(PollContext& ctx);   // WLMouse Beast X family (VID 36A7)
 void PollNinjutso(PollContext& ctx);  // Sora V2 1K receiver (1915:AE1C)
 void PollSprime(PollContext& ctx);    // Sprime PM1 (1915:AC1C / AD8C receivers, AC11-AC13 cable)
 void PollRongyuan(PollContext& ctx);  // Rongyuan receivers (Attack Shark, Ajazz keyboards, ...)
-void PollSonyInzone(PollContext& ctx);  // Sony INZONE H9 II / H5 / Buds
+void PollSonyInzone(PollContext& ctx);  // Sony INZONE H9 II / H5 / Buds (HID), H9 / H7 (serial port)
 void PollSonix(PollContext& ctx);     // SONiX keyboards on their 2.4 GHz dongle (AJAZZ AK820 MAX, AK980 V2, AULA F108 Pro)
 void PollFractal(PollContext& ctx);   // Fractal Design Scape headset (dongle or cable)
 void PollJabra(PollContext& ctx);     // Jabra headsets behind a Link 380 / 390 dongle

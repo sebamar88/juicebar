@@ -80,6 +80,8 @@ startup entry, and only one of them can run at a time.
   taskbar when Windows lists the unused connection first.
 - **Sleeping Razer mice stay on the taskbar**, dimmed, with their last reading. In the original they disappeared and
   came back up to a minute after waking.
+- **Sony INZONE H9 / H7 (first generation):** read over their dongle's USB serial port, which the original didn't
+  support.
 - **Command line:** `--demo` shows sample Razer and Logitech devices, `--demo=all` one device of every brand (for
   screenshots or checking colors without the hardware). `--preview file.bmp` draws every brand on a dark and a light
   taskbar into one image. `--list` prints the devices it finds with the detected brand.
@@ -91,7 +93,8 @@ Same as the original: mice, keyboards and headsets from Logitech (Unifying, Bolt
 that shows its battery in *Settings → Bluetooth & devices*. Full list:
 [original README](docs/ORIGINAL-README.md#supported-devices).
 
-Logitech G HUB, Razer Synapse and other vendor apps can keep running alongside it.
+Logitech G HUB, Razer Synapse and other vendor apps can keep running alongside it. The exception is the first-generation
+INZONE H9 / H7: INZONE Hub holds their dongle's serial port while it runs, so close INZONE Hub to see the headset.
 
 ## Privacy and safety
 
