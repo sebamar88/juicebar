@@ -80,6 +80,8 @@ startup entry, and only one of them can run at a time.
   taskbar when Windows lists the unused connection first.
 - **Sleeping Razer mice stay on the taskbar**, dimmed, with their last reading. In the original they disappeared and
   came back up to a minute after waking.
+- **Every monitor:** a copy of the strip on each secondary monitor's taskbar, next to its clock (ported from
+  Wireless Battery 1.0.8), so the levels stay visible while a game runs fullscreen on the main screen.
 - **Sony INZONE H9 / H7 (first generation):** read over their dongle's USB serial port, which the original didn't
   support.
 - **Command line:** `--demo` shows sample Razer and Logitech devices, `--demo=all` one device of every brand (for
